@@ -1,13 +1,11 @@
-import { Printer } from './Printer';
-import { PrinterJS } from './PrinterJS';
+import { AllCards } from "./AllCards";
 
 const App= ()=> {
   
   return (
     <div className="App">
-     
-     <Printer name="berke" />
-     <PrinterJS name="annen"/>
+    <AllCards />
+  
     </div>
   );
 }
