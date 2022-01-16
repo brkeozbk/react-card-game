@@ -21,3 +21,6 @@ body{
   color: white;
   border: 0;
 }
+.card.clickable{
+  cursor: pointer;
+}
