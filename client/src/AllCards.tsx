@@ -70,7 +70,7 @@ class AllCards extends React.Component<{}, IState>{
     }
     
      reset = () =>{
-        console.log("reset");
+        
     this.selectedCardIds = []
     this.selectedCards = []
     this.setState({
@@ -80,7 +80,8 @@ class AllCards extends React.Component<{}, IState>{
 
     }
     render() {
-        const cardList = this.state.cards.map(c => (<Card key={c.id} card={c} clickHandler={this.cardClickHandler}/>))
+        console.table(data)
+        const cardList = this.state.cards.map(c => (<Card key={c.id} card={{...c}} clickHandler={this.cardClickHandler}/>))
         return (
             <div className='container p-3 bg-dark-gray'>
                 <div className="row row-cols-1 row-cols-md-3 g-4" style={{columnCount:2}}>
