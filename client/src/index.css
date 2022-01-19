@@ -24,3 +24,7 @@ body{
 .card.clickable{
   cursor: pointer;
 }
+hr{
+  border-top: 2px solid white;
+}
+

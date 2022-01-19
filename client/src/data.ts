@@ -21,5 +21,30 @@ export const data: ICard[]= [
         content:"A",
         state:"unmatched"
     },
+    
+    {
+        id:5,
+        content:"c",
+        state:"unmatched"
+    },
+    
+    {
+        id:6,
+        content:"c",
+        state:"unmatched"
+    },
+    
+    {
+        id:7,
+        content:"d",
+        state:"unmatched"
+    },
+    
+    {
+        id:8,
+        content:"d",
+        state:"unmatched"
+    }
+    
 
 ]
